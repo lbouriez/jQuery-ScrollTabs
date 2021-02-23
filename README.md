@@ -34,6 +34,7 @@ And to show the options available:
     scroll_duration: 350,        // Milliseconds for how long to animate the scroll
     left_arrow_size: 26,         // Width of the left arrow (if you choose to customize this)
     right_arrow_size: 26,        // Width of the right arrow (if you choose to customize this)
+    middle_click_callback: function(e){} // Allow to do an action on middle click
     click_callback: function(e){ 
       // This shows the default callback, which will redirect the page based
       // on the 'rel' attribute.
